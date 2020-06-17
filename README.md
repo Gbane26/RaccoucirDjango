@@ -41,7 +41,7 @@ django-admin startproject « nom du projet »
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - — 
-Pour activer venv 
+Pour activer venv sur Mac Os
 
 source venv/bin/activate 
 
@@ -68,4 +68,9 @@ Créer un super utilisateur
 
 python manage.py createsuperuser
 
+--------------------------------
+Pour creer son environnement virtuel 
+* python3 -m venv venv
+Pour activer sur Windows 
+* venv\Scripts\activate.bat
 
