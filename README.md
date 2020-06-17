@@ -22,7 +22,7 @@ INSTALLED_APPS = (
 
 python3 manage.py seed ’nom de l’app’ --number=15
 
-————————————————————————
+----------------------------------------
 Pour générer admin-generator
 
 pip install django-admin-generator
@@ -33,7 +33,7 @@ Add django_admin_generator to your INSTALLED_APPS
 python3 manage.py admin_generator APP_NAME >> APP_NAME/admin.py
 
 
-——————————————————————————
+----------------------------------------------
 Pour créer un projet en Django
 
 django-admin startproject « nom du projet » 
@@ -49,11 +49,11 @@ source venv/bin/activate
 ------------------------------------------
 Pour requirements.txt
 
-pip freeze > requirements.txt
+* pip freeze > requirements.txt
 
 pour installer requirements
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
  - - - - - - - - - - - - - - - - - - - 
 Installer rest framework 
