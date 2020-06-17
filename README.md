@@ -46,10 +46,14 @@ Pour activer venv sur Mac Os
 source venv/bin/activate 
 
 
-————————
+------------------------------------------
 Pour requirements.txt
 
 pip freeze > requirements.txt
+
+pour installer requirements
+
+pip install -r requirements.txt
 
  - - - - - - - - - - - - - - - - - - - 
 Installer rest framework 
